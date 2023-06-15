@@ -1,0 +1,10 @@
+export const CATEGORY_ACTIONS = {
+  FETCH_CATEGORIES: "FETCH_CATEGORIES",
+  FETCH_CATEGORIES_SUCCESS: "FETCH_CATEGORIES_SUCCESS",
+};
+
+export const fetchCategories = () => {
+  return {
+    type: CATEGORY_ACTIONS.FETCH_CATEGORIES,
+  };
+};
