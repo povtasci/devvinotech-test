@@ -2,11 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+First you need to create `.env` file by coping `.env.sample` in the project directory
 
+### `cp env.sample .env`
+
+After run 
 ### `npm install`
+
+and to run the project use this command:
+
 ### `npm start`
 
 Runs the app in the development mode.\
